@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DriveReady — Privacy Policy</title>
-    <meta name="description" content="Privacy Policy for the DriveReady mobile application." />
+    <title>Drive Ready — Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for the Drive Ready mobile application." />
     <style>
       :root {
         --bg: #0b1020;
@@ -152,15 +152,6 @@
         text-align: center;
       }
 
-      code {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-        font-size: 0.95em;
-        background: rgba(0,0,0,0.18);
-        padding: 2px 6px;
-        border-radius: 8px;
-        border: 1px solid var(--border);
-      }
-
       @media (max-width: 560px) {
         header { flex-direction: column; }
       }
@@ -171,22 +162,23 @@
     <div class="container">
       <header>
         <div class="brand">
-          <div class="badge" aria-label="DriveReady Privacy Policy">
+          <div class="badge" aria-label="Drive Ready Privacy Policy">
             <span class="dot" aria-hidden="true"></span>
-            <strong>DriveReady</strong>
+            <strong>Drive Ready</strong>
             <span style="color: var(--muted)">Privacy Policy</span>
           </div>
 
           <h1>Privacy Policy</h1>
           <p class="subtitle">
-            This page explains how the DriveReady mobile application (“the App”) handles information.
-            DriveReady is designed to work fully offline and does not collect personal data.
+            This page explains how the Drive Ready mobile application (“the App”) handles information.
+            Your study progress stays on your device. The App collects only the minimum data needed to
+            process subscriptions and purchases.
           </p>
 
           <div class="meta">
-            <span class="pill"><strong>Last updated:</strong> August 2026</span>
+            <span class="pill"><strong>Last updated:</strong> October 2026</span>
             <span class="pill"><strong>Applies to:</strong> iOS &amp; Android</span>
-            <span class="pill"><strong>Data collection:</strong> None</span>
+            <span class="pill"><strong>Data collection:</strong> Purchases only</span>
           </div>
         </div>
       </header>
@@ -194,20 +186,23 @@
       <main class="card">
         <h2>1. Information Collection and Use</h2>
         <p>
-          DriveReady <strong>does not collect, store, or transmit personal data</strong>.
-          The App does not require user registration and does not request personal information.
+          Drive Ready does <strong>not</strong> require registration and does not ask for your name, email
+          address or other personal information. Your study data stays on your device (see section 2).
         </p>
         <ul>
           <li>No accounts / sign-in</li>
           <li>No analytics or tracking</li>
           <li>No advertising services</li>
-          <li>No in-app purchases or subscriptions</li>
-          <li>No external data sharing</li>
+          <li>No cloud sync of your study data</li>
         </ul>
+        <p>
+          The only data that leaves your device is related to subscriptions and purchases, described in
+          section 5.
+        </p>
 
         <h2>2. Local Data Storage</h2>
         <p>
-          The App stores data <strong>locally on your device only</strong> using a local database.
+          The App stores study data <strong>locally on your device only</strong> using a local database.
           This may include:
         </p>
         <ul>
@@ -228,9 +223,12 @@
         <ul>
           <li>Use <strong>Settings → Reset statistics</strong> to erase progress, statistics, exam attempts and the review schedule.</li>
           <li>Uninstalling the App removes all locally stored data from your device.</li>
+          <li>Deleting the App does not cancel an active subscription. Manage or cancel it in your App Store or Google Play account settings.</li>
         </ul>
         <p class="note">
-          Because no copy of this data exists outside your device, deleted data cannot be recovered by us or by you.
+          Because no copy of your study data exists outside your device, deleted data cannot be recovered by us or by you.
+          Your purchases are tied to your App Store or Google Play account and can be restored with
+          <strong>Restore Purchases</strong> in the App.
         </p>
 
         <h2>4. Local Reminders</h2>
@@ -240,71 +238,96 @@
         </p>
         <ul>
           <li>No remote or push notification service is used</li>
-          <li>No device token or identifier is generated or transmitted</li>
+          <li>No device token or identifier is generated or transmitted for reminders</li>
+          <li>If you start a free trial, the App may schedule a local reminder before the trial ends</li>
           <li>Reminders can be turned off at any time in the App settings or in your device system settings</li>
         </ul>
 
-        <h2>5. Third-Party Services</h2>
+        <h2>5. Subscriptions and Purchases</h2>
         <p>
-          DriveReady does <strong>not</strong> use third-party services that collect user data, including:
+          The App is free to download. Some features are available through an optional PRO subscription
+          or a one-time “Lifetime” purchase. Payments are processed entirely by Apple (App Store) or
+          Google (Google Play) under their own terms and privacy policies. We never receive or process
+          your payment details.
+        </p>
+        <p>
+          To manage subscriptions, the App uses <strong>RevenueCat</strong>
+          (<a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>), a subscription
+          management service. When you open the App, make a purchase or restore purchases, RevenueCat
+          processes:
+        </p>
+        <ul>
+          <li>a random anonymous identifier generated by the App (not linked to your name, email or Apple / Google account)</li>
+          <li>purchase and subscription history (product, purchase and expiration dates, trial status)</li>
+          <li>technical information needed to process the request, such as platform, operating system version, App version, store country and IP address</li>
+        </ul>
+        <p>
+          This data is used only to provide access to the features you paid for and to restore purchases.
+          It is not used for advertising or tracking and is not sold or shared with third parties for
+          their own purposes.
+        </p>
+        <p class="note">
+          If you bought the App when it was a paid application, this is detected on your device and your
+          access remains available without a subscription.
+        </p>
+
+        <h2>6. Other Third-Party Services</h2>
+        <p>
+          Apart from RevenueCat, the App does <strong>not</strong> use third-party services that collect user data, including:
         </p>
         <ul>
           <li>Analytics services (e.g., Firebase Analytics)</li>
           <li>Authentication services</li>
           <li>Advertising networks (e.g., AdMob)</li>
           <li>Crash reporting services</li>
-          <li>External APIs or cloud sync</li>
         </ul>
-        <p class="note">
-          The App is distributed as a paid application. Payment is processed entirely by Apple (App Store) or
-          Google (Google Play) under their own terms and privacy policies. We do not receive or process your
-          payment details.
+        <p>
+          To check whether a newer version is available, the App sends a request containing only its
+          identifier to Apple’s public App Store lookup service (iOS) or uses Google Play In-App Updates
+          (Android). No personal data is included.
         </p>
 
-        <h2>6. Links to External Resources</h2>
+        <h2>7. Links to External Resources</h2>
         <p>
           The App contains links that open outside the App, for example the official text of the traffic
-          regulations, this Privacy Policy, the store page for rating the App, and an email link for contacting us.
+          regulations, this Privacy Policy, the Terms of Use, subscription management in your App Store or
+          Google Play account, the store page for rating the App, and an email link for contacting us.
           Opening such a link hands control to your browser, email client or app store, which are governed by
           their own privacy policies. If you choose to email us, your message and email address are visible to us
           for the purpose of replying to you.
         </p>
 
-        <h2>7. Data Security</h2>
+        <h2>8. Data Security</h2>
         <p>
-          Because data is stored locally, its security depends on your device and its operating system settings.
-          DriveReady does not access or retrieve your local data.
+          Study data is stored locally, so its security depends on your device and its operating system settings.
+          Drive Ready does not access or retrieve your local data. Subscription data is transmitted to
+          RevenueCat over encrypted connections (HTTPS).
         </p>
 
-        <h2>8. Children’s Privacy</h2>
+        <h2>9. Children’s Privacy</h2>
         <p>
-          DriveReady does not knowingly collect personal information from children under 13.
+          Drive Ready does not knowingly collect personal information from children under 13.
         </p>
 
-        <h2>9. Changes to This Privacy Policy</h2>
+        <h2>10. Changes to This Privacy Policy</h2>
         <p>
           We may update this Privacy Policy from time to time. Any changes will be published on this page and the
           “Last updated” date will be adjusted.
         </p>
 
-        <h2>10. Contact</h2>
+        <h2>11. Contact</h2>
         <div class="contact">
           <div><strong>Email:</strong> <a href="mailto:matvii.ulytskyi@gmail.com">matvii.ulytskyi@gmail.com</a></div>
         </div>
 
-        <h2>11. Consent</h2>
+        <h2>12. Consent</h2>
         <p>
-          By using DriveReady, you agree to this Privacy Policy.
-        </p>
-
-        <p class="note">
-          If you later add analytics, ads, cloud sync, remote push notifications, or in-app purchases, this policy
-          must be updated accordingly.
+          By using Drive Ready, you agree to this Privacy Policy.
         </p>
       </main>
 
       <footer>
-        © <span id="year"></span> DriveReady. All rights reserved.
+        © <span id="year"></span> Drive Ready. All rights reserved.
       </footer>
     </div>
 
